@@ -40,11 +40,11 @@ itemClick(item,index){
 
 |属性名|类型|默认值|说明
 ---|---|---|---
-swiperData|Array＜Number＞||轮播图片数组|
-useSlot|Boolean|false|自定义底部详情，不开启则使用默认详情|
+swiper-data|Array＜Number＞||轮播图片数组|
+use-slot|Boolean|false|自定义底部详情，不开启则使用默认详情|
 show|Boolean|true|是否显示默认底部详情|
-likeNumbe|Number|999|轮播图底部详情|
-readNumbe|Number|999|轮播图底部详情|
+like-numbe|Number|999|轮播图底部详情|
+read-numbe|Number|999|轮播图底部详情|
 
 ### 事件说明 event
 |事件名|说明|回调参数

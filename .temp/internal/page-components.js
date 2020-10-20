@@ -3,6 +3,7 @@
  */
 export default {
   "v-7b0bf451": () => import("F:\\ming\\vuepress-starter\\docs\\README.md"),
-  "v-219c427a": () => import("F:\\ming\\vuepress-starter\\docs\\components\\my-swiper.md"),
-  "v-3384772a": () => import("F:\\ming\\vuepress-starter\\docs\\api.md") 
+  "v-3384772a": () => import("F:\\ming\\vuepress-starter\\docs\\api.md"),
+  "v-67c8ac97": () => import("F:\\ming\\vuepress-starter\\docs\\components\\my-swiper-nav.md"),
+  "v-219c427a": () => import("F:\\ming\\vuepress-starter\\docs\\components\\my-swiper.md") 
 }

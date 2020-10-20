@@ -21,19 +21,27 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-219c427a",
-    path: "/components/my-swiper.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
-    },
-  },
-  {
     name: "v-3384772a",
     path: "/api.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-3384772a").then(next)
+    },
+  },
+  {
+    name: "v-67c8ac97",
+    path: "/components/my-swiper-nav.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
+    },
+  },
+  {
+    name: "v-219c427a",
+    path: "/components/my-swiper.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
     },
   },
   {
