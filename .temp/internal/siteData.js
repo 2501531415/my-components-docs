@@ -12,7 +12,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-7b0bf451",
+      "key": "v-437a3d42",
       "path": "/"
     },
     {
@@ -20,21 +20,36 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/api.html",
       "relativePath": "api.md",
-      "key": "v-3384772a",
+      "key": "v-3304fa48",
       "path": "/api.html"
     },
     {
-      "title": "滚动导航条",
+      "title": "Refresh 拉下刷新",
+      "frontmatter": {},
+      "regularPath": "/components/my-refresh.html",
+      "relativePath": "components/my-refresh.md",
+      "key": "v-17c2cb2e",
+      "path": "/components/my-refresh.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Refresh 拉下刷新",
+          "slug": "refresh-拉下刷新"
+        }
+      ]
+    },
+    {
+      "title": "NavBar 滚动导航条",
       "frontmatter": {},
       "regularPath": "/components/my-swiper-nav.html",
       "relativePath": "components/my-swiper-nav.md",
-      "key": "v-67c8ac97",
+      "key": "v-ea7a0c6e",
       "path": "/components/my-swiper-nav.html",
       "headers": [
         {
           "level": 2,
-          "title": "滚动导航条",
-          "slug": "滚动导航条"
+          "title": "NavBar 滚动导航条",
+          "slug": "navbar-滚动导航条"
         },
         {
           "level": 3,
@@ -64,17 +79,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "自适应的轮播",
+      "title": "Swiper 自适应轮播",
       "frontmatter": {},
       "regularPath": "/components/my-swiper.html",
       "relativePath": "components/my-swiper.md",
-      "key": "v-219c427a",
+      "key": "v-76dd7df5",
       "path": "/components/my-swiper.html",
       "headers": [
         {
           "level": 2,
-          "title": "自适应的轮播",
-          "slug": "自适应的轮播"
+          "title": "Swiper 自适应轮播",
+          "slug": "swiper-自适应轮播"
         },
         {
           "level": 3,
@@ -135,11 +150,15 @@ export const siteData = {
         "children": [
           [
             "/components/my-swiper",
-            "自适应轮播"
+            "Swiper 自适应轮播"
           ],
           [
             "/components/my-swiper-nav",
-            "滚动导航条"
+            "NavBar 滚动导航条"
+          ],
+          [
+            "/components/my-refresh",
+            "refresh 下拉刷新"
           ]
         ]
       }

@@ -16,8 +16,9 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 0,    // 可选的, 默认值是 1
                 children: [
-                  ['/components/my-swiper','自适应轮播'],
-                  ['/components/my-swiper-nav','滚动导航条']
+                  ['/components/my-swiper','Swiper 自适应轮播'],
+                  ['/components/my-swiper-nav','NavBar 滚动导航条'],
+                  ['/components/my-refresh','refresh 下拉刷新']
                 ]
             },
         ],
