@@ -12,7 +12,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-437a3d42",
+      "key": "v-7b0bf451",
       "path": "/"
     },
     {
@@ -20,30 +20,15 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/api.html",
       "relativePath": "api.md",
-      "key": "v-3304fa48",
+      "key": "v-3384772a",
       "path": "/api.html"
-    },
-    {
-      "title": "Refresh 拉下刷新",
-      "frontmatter": {},
-      "regularPath": "/components/my-refresh.html",
-      "relativePath": "components/my-refresh.md",
-      "key": "v-17c2cb2e",
-      "path": "/components/my-refresh.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Refresh 拉下刷新",
-          "slug": "refresh-拉下刷新"
-        }
-      ]
     },
     {
       "title": "NavBar 滚动导航条",
       "frontmatter": {},
       "regularPath": "/components/my-swiper-nav.html",
       "relativePath": "components/my-swiper-nav.md",
-      "key": "v-ea7a0c6e",
+      "key": "v-67c8ac97",
       "path": "/components/my-swiper-nav.html",
       "headers": [
         {
@@ -79,11 +64,51 @@ export const siteData = {
       ]
     },
     {
+      "title": "Refresh 拉下刷新",
+      "frontmatter": {},
+      "regularPath": "/components/my-refresh.html",
+      "relativePath": "components/my-refresh.md",
+      "key": "v-ae440092",
+      "path": "/components/my-refresh.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Refresh 拉下刷新",
+          "slug": "refresh-拉下刷新"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
       "title": "Swiper 自适应轮播",
       "frontmatter": {},
       "regularPath": "/components/my-swiper.html",
       "relativePath": "components/my-swiper.md",
-      "key": "v-76dd7df5",
+      "key": "v-219c427a",
       "path": "/components/my-swiper.html",
       "headers": [
         {

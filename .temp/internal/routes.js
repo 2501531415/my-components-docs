@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\工作\\my-components\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "F:\\ming\\vuepress-starter\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-437a3d42",
+    name: "v-7b0bf451",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-437a3d42").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7b0bf451").then(next)
     },
   },
   {
@@ -21,35 +21,35 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-3304fa48",
+    name: "v-3384772a",
     path: "/api.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3304fa48").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3384772a").then(next)
     },
   },
   {
-    name: "v-17c2cb2e",
-    path: "/components/my-refresh.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-17c2cb2e").then(next)
-    },
-  },
-  {
-    name: "v-ea7a0c6e",
+    name: "v-67c8ac97",
     path: "/components/my-swiper-nav.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ea7a0c6e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
     },
   },
   {
-    name: "v-76dd7df5",
+    name: "v-ae440092",
+    path: "/components/my-refresh.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ae440092").then(next)
+    },
+  },
+  {
+    name: "v-219c427a",
     path: "/components/my-swiper.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-76dd7df5").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
     },
   },
   {
