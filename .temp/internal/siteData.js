@@ -8,62 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-7b0bf451",
-      "path": "/"
-    },
-    {
-      "title": "Hello world",
-      "frontmatter": {},
-      "regularPath": "/api.html",
-      "relativePath": "api.md",
-      "key": "v-3384772a",
-      "path": "/api.html"
-    },
-    {
-      "title": "NavBar 滚动导航条",
-      "frontmatter": {},
-      "regularPath": "/components/my-swiper-nav.html",
-      "relativePath": "components/my-swiper-nav.md",
-      "key": "v-67c8ac97",
-      "path": "/components/my-swiper-nav.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "NavBar 滚动导航条",
-          "slug": "navbar-滚动导航条"
-        },
-        {
-          "level": 3,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "引入",
-          "slug": "引入"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 3,
-          "title": "属性说明props",
-          "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "事件说明 event",
-          "slug": "事件说明-event"
-        }
-      ]
-    },
-    {
       "title": "Refresh 拉下刷新",
       "frontmatter": {},
       "regularPath": "/components/my-refresh.html",
@@ -142,6 +86,62 @@ export const siteData = {
           "slug": "事件说明-event"
         }
       ]
+    },
+    {
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-7b0bf451",
+      "path": "/"
+    },
+    {
+      "title": "NavBar 滚动导航条",
+      "frontmatter": {},
+      "regularPath": "/components/my-swiper-nav.html",
+      "relativePath": "components/my-swiper-nav.md",
+      "key": "v-67c8ac97",
+      "path": "/components/my-swiper-nav.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "NavBar 滚动导航条",
+          "slug": "navbar-滚动导航条"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
+      "title": "Hello world",
+      "frontmatter": {},
+      "regularPath": "/api.html",
+      "relativePath": "api.md",
+      "key": "v-3384772a",
+      "path": "/api.html"
     }
   ],
   "themeConfig": {
