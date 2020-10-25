@@ -18,7 +18,9 @@ module.exports = {
                 children: [
                   ['/components/my-swiper','Swiper 自适应轮播'],
                   ['/components/my-swiper-nav','NavBar 滚动导航条'],
-                  ['/components/my-refresh','refresh 下拉刷新']
+                  ['/components/my-refresh','Refresh 下拉刷新'],
+                  ['/components/my-upload','Upload 文件上传'],
+                  ['/components/my-side-bar','SideBar 侧边栏']
                 ]
             },
         ],
