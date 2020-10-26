@@ -5,7 +5,7 @@
 
 ### 引入
 1.在组件内引入
-```
+```javascript
 import mySwiperNav from '@/components/my-swiper-nav/my-swiper-nav'
 componetns:{
    mySwiperNav
@@ -17,7 +17,7 @@ componetns:{
 
 #### 基础用法
 
-```
+```javascript
 <my-swiper-nav :navData="navData"  @navItemClick="navItemClick"/>
 
 ```

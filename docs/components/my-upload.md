@@ -5,7 +5,7 @@
 
 ### 引入
 1.在组件内引入
-```
+```javascript
 import myUpload from '@/components/my-upload/my-upload'
 componetns:{
    myUpload
@@ -15,12 +15,12 @@ componetns:{
 
 ### 代码演示
 #### 基础用法
-```
+```javascript
 <my-upload @beforeRead="beforeRead" @success="success" :file-list="fileList" url="http://192.168.0.149:3000/upload" :width="100" :count="5" accept="media"/>
 ```
 #### 点击预览以及点击删除
 预览以及删除具体参数请看事件说明
-```
+```javascript
 <my-upload @beforeRead="beforeRead" @success="success" @fail="fail" :file-list="fileList" @click-delete="clickDelete" @click-preview="preView"/>
 ```
 

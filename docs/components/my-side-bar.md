@@ -5,7 +5,7 @@
 
 ### 引入
 1.在组件内引入
-```
+```javascript
 import mySideBar from '@/components/my-side-bar/my-side-bar'
 componetns:{
    mySideBar
@@ -15,7 +15,7 @@ componetns:{
 
 ### 代码演示
 #### 基础用法
-```
+```javascript
 <my-side-bar :SideBarList="categoryData" @change="onChange" :activeIndex="3" @badgeClick="badgeClick" activeBorderColor="green" badgeBgC="green"/>
 ```
 

@@ -5,7 +5,7 @@
 
 ### 引入
 1.在组件内引入
-```
+```javascript
 import myRefresh from '@/components/my-refresh/my-refresh'
 componetns:{
    myRefresh
@@ -17,7 +17,7 @@ componetns:{
 
 #### 基础用法
 
-```
+```javascript
 <my-refresh @pullDown="pullDown" @pullUp="pullUp" :total-page="50" :current-page="currentPage" pull-down-type="dot" border-color="red">
     //列表内容
 	<view class="list">

@@ -5,7 +5,7 @@
 
 ### 引入
 1.在组件内引入
-```
+```javascript
 import mySwiper from '@/components/my-swiper/my-swiper'
 componetns:{
    mySwiper
@@ -15,11 +15,11 @@ componetns:{
 
 ### 代码演示
 #### 基础用法
-```
+```javascript
 <my-swiper :swiperData="swiperData"></my-swiper>
 ```
 #### 点击预览
-```
+```javascript
 <my-swiper :swiperData="swiperData" @itemClick="itemClick"></my-swiper>
 itemClick(item,index){
   uni.previewImage({  //uni.previewImage api

@@ -37,14 +37,6 @@ export const routes = [
     },
   },
   {
-    name: "v-67c8ac97",
-    path: "/components/my-swiper-nav.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
-    },
-  },
-  {
     name: "v-13139979",
     path: "/components/my-side-bar.html",
     component: GlobalLayout,
@@ -53,11 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-219c427a",
-    path: "/components/my-swiper.html",
+    name: "v-67c8ac97",
+    path: "/components/my-swiper-nav.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
     },
   },
   {
@@ -66,6 +58,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-eb03cc1e").then(next)
+    },
+  },
+  {
+    name: "v-219c427a",
+    path: "/components/my-swiper.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
     },
   },
   {
