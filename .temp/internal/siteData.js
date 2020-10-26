@@ -8,11 +8,27 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-7b0bf451",
+      "path": "/"
+    },
+    {
+      "title": "Hello world",
+      "frontmatter": {},
+      "regularPath": "/api.html",
+      "relativePath": "api.md",
+      "key": "v-3384772a",
+      "path": "/api.html"
+    },
+    {
       "title": "Refresh 拉下刷新",
       "frontmatter": {},
       "regularPath": "/components/my-refresh.html",
       "relativePath": "components/my-refresh.md",
-      "key": "v-17c2cb2e",
+      "key": "v-ae440092",
       "path": "/components/my-refresh.html",
       "headers": [
         {
@@ -48,26 +64,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "SideBar 侧边栏",
-      "frontmatter": {},
-      "regularPath": "/components/my-side-bar.html",
-      "relativePath": "components/my-side-bar.md",
-      "key": "v-decf60aa",
-      "path": "/components/my-side-bar.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "SideBar 侧边栏",
-          "slug": "sidebar-侧边栏"
-        }
-      ]
-    },
-    {
       "title": "NavBar 滚动导航条",
       "frontmatter": {},
       "regularPath": "/components/my-swiper-nav.html",
       "relativePath": "components/my-swiper-nav.md",
-      "key": "v-ea7a0c6e",
+      "key": "v-67c8ac97",
       "path": "/components/my-swiper-nav.html",
       "headers": [
         {
@@ -103,11 +104,51 @@ export const siteData = {
       ]
     },
     {
+      "title": "SideBar 侧边栏",
+      "frontmatter": {},
+      "regularPath": "/components/my-side-bar.html",
+      "relativePath": "components/my-side-bar.md",
+      "key": "v-13139979",
+      "path": "/components/my-side-bar.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "SideBar 侧边栏",
+          "slug": "sidebar-侧边栏"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
       "title": "Swiper 自适应轮播",
       "frontmatter": {},
       "regularPath": "/components/my-swiper.html",
       "relativePath": "components/my-swiper.md",
-      "key": "v-76dd7df5",
+      "key": "v-219c427a",
       "path": "/components/my-swiper.html",
       "headers": [
         {
@@ -147,7 +188,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/components/my-upload.html",
       "relativePath": "components/my-upload.md",
-      "key": "v-1229b923",
+      "key": "v-eb03cc1e",
       "path": "/components/my-upload.html",
       "headers": [
         {
@@ -181,22 +222,6 @@ export const siteData = {
           "slug": "事件说明-event"
         }
       ]
-    },
-    {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-437a3d42",
-      "path": "/"
-    },
-    {
-      "title": "Hello world",
-      "frontmatter": {},
-      "regularPath": "/api.html",
-      "relativePath": "api.md",
-      "key": "v-3304fa48",
-      "path": "/api.html"
     }
   ],
   "themeConfig": {

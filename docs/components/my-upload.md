@@ -18,22 +18,10 @@ componetns:{
 ```
 <my-upload @beforeRead="beforeRead" @success="success" :file-list="fileList" url="http://192.168.0.149:3000/upload" :width="100" :count="5" accept="media"/>
 ```
-#### 点击预览
+#### 点击预览以及点击删除
+预览以及删除具体参数请看事件说明
 ```
-<my-swiper :swiperData="swiperData" @itemClick="itemClick"></my-swiper>
-itemClick(item,index){
-  uni.previewImage({  //uni.previewImage api
-	current: index,
-	urls: item,
-	indicator: 'number',
-	fail(err) {
-	uni.showToast({
-		title: err,
-		icon: 'none'
-	})
-	}
-})  
-}
+<my-upload @beforeRead="beforeRead" @success="success" @fail="fail" :file-list="fileList" @click-delete="clickDelete" @click-preview="preView"/>
 ```
 
 ### 属性说明props
@@ -54,6 +42,8 @@ formData|Object||http 携带的额外参数|
 mediaType|Array＜String＞|['image', 'video']|当accept为media时的文件类型|
 width|Number|100|上传框的宽度,高度与宽度一致|
 fileList|Array＜Object＞|[]|图片或者视频的预览数组|
+preview-full-image|Boolean|true|是否在点击预览图后展示全屏图片预览|
+deletable|Boolean|true|是否展示删除按钮|
 
 #### fileList
 file-list 为一个对象数组，数组中的每一个对象包含以下 key
@@ -66,5 +56,7 @@ file-list 为一个对象数组，数组中的每一个对象包含以下 key
 |事件名|说明|回调参数
 ---|---|---
 beforeRead|EventHandle|(e,callback) e为选中的临时文件信息,callback,默认不使用beforeRead,当使用beforRead时,验证不通过需要调用回调函数callback(false),成功时callback(true)
+click-preview|EventHandle|(index) 返回当前预览图片的索引值index，点击将展示全屏图片
+click-delete|EventHandle|(index) 返回当前将要删除图片的索引值index 需要重新传递fileList,使用splice进行删除操作
 success|EventHandle|(file) file为上传成功至服务器的信息，是一个数组
 fail|EventHandle|(err) err返回上传错误的信息
