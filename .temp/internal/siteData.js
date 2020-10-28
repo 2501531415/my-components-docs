@@ -8,6 +8,14 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "Hello world",
+      "frontmatter": {},
+      "regularPath": "/api.html",
+      "relativePath": "api.md",
+      "key": "v-3384772a",
+      "path": "/api.html"
+    },
+    {
       "title": "快速上手",
       "frontmatter": {},
       "regularPath": "/",
@@ -16,12 +24,49 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "Hello world",
+      "title": "NavBar 导航条",
       "frontmatter": {},
-      "regularPath": "/api.html",
-      "relativePath": "api.md",
-      "key": "v-3384772a",
-      "path": "/api.html"
+      "regularPath": "/components/my-nav-bar.html",
+      "relativePath": "components/my-nav-bar.md",
+      "key": "v-3e729bf7",
+      "path": "/components/my-nav-bar.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "NavBar 导航条",
+          "slug": "navbar-导航条"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "插槽自定义",
+          "slug": "插槽自定义"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
     },
     {
       "title": "Refresh 拉下刷新",
@@ -144,17 +189,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "Upload 上传",
+      "title": "Swiper 自适应轮播",
       "frontmatter": {},
-      "regularPath": "/components/my-upload.html",
-      "relativePath": "components/my-upload.md",
-      "key": "v-eb03cc1e",
-      "path": "/components/my-upload.html",
+      "regularPath": "/components/my-swiper.html",
+      "relativePath": "components/my-swiper.md",
+      "key": "v-219c427a",
+      "path": "/components/my-swiper.html",
       "headers": [
         {
           "level": 2,
-          "title": "Upload 上传",
-          "slug": "upload-上传"
+          "title": "Swiper 自适应轮播",
+          "slug": "swiper-自适应轮播"
         },
         {
           "level": 3,
@@ -184,17 +229,62 @@ export const siteData = {
       ]
     },
     {
-      "title": "Swiper 自适应轮播",
+      "title": "TabBar 底部导航条",
       "frontmatter": {},
-      "regularPath": "/components/my-swiper.html",
-      "relativePath": "components/my-swiper.md",
-      "key": "v-219c427a",
-      "path": "/components/my-swiper.html",
+      "regularPath": "/components/my-tab-bar.html",
+      "relativePath": "components/my-tab-bar.md",
+      "key": "v-7840c092",
+      "path": "/components/my-tab-bar.html",
       "headers": [
         {
           "level": 2,
-          "title": "Swiper 自适应轮播",
-          "slug": "swiper-自适应轮播"
+          "title": "TabBar 底部导航条",
+          "slug": "tabbar-底部导航条"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "list",
+          "slug": "list"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
+      "title": "Upload 上传",
+      "frontmatter": {},
+      "regularPath": "/components/my-upload.html",
+      "relativePath": "components/my-upload.md",
+      "key": "v-eb03cc1e",
+      "path": "/components/my-upload.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Upload 上传",
+          "slug": "upload-上传"
         },
         {
           "level": 3,
@@ -272,6 +362,14 @@ export const siteData = {
           [
             "/components/my-side-bar",
             "SideBar 侧边栏"
+          ],
+          [
+            "/components/my-nav-bar",
+            "NavBar 导航栏"
+          ],
+          [
+            "/components/my-tab-bar",
+            "TabBar 底部导航栏"
           ]
         ]
       }

@@ -20,7 +20,9 @@ module.exports = {
                   ['/components/my-swiper-nav','NavBar 滚动导航条'],
                   ['/components/my-refresh','Refresh 下拉刷新'],
                   ['/components/my-upload','Upload 文件上传'],
-                  ['/components/my-side-bar','SideBar 侧边栏']
+                  ['/components/my-side-bar','SideBar 侧边栏'],
+                  ['/components/my-nav-bar','NavBar 导航栏'],
+                  ['/components/my-tab-bar','TabBar 底部导航栏']
                 ]
             },
         ],

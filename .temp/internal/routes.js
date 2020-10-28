@@ -9,6 +9,14 @@ import GlobalLayout from "F:\\ming\\vuepress-starter\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-3384772a",
+    path: "/api.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3384772a").then(next)
+    },
+  },
+  {
     name: "v-7b0bf451",
     path: "/",
     component: GlobalLayout,
@@ -21,11 +29,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-3384772a",
-    path: "/api.html",
+    name: "v-3e729bf7",
+    path: "/components/my-nav-bar.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3384772a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3e729bf7").then(next)
     },
   },
   {
@@ -53,19 +61,27 @@ export const routes = [
     },
   },
   {
-    name: "v-eb03cc1e",
-    path: "/components/my-upload.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-eb03cc1e").then(next)
-    },
-  },
-  {
     name: "v-219c427a",
     path: "/components/my-swiper.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
+    },
+  },
+  {
+    name: "v-7840c092",
+    path: "/components/my-tab-bar.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7840c092").then(next)
+    },
+  },
+  {
+    name: "v-eb03cc1e",
+    path: "/components/my-upload.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-eb03cc1e").then(next)
     },
   },
   {
