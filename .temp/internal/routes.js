@@ -29,19 +29,19 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-21064597",
+    path: "/components/my-drop-down.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-21064597").then(next)
+    },
+  },
+  {
     name: "v-3e729bf7",
     path: "/components/my-nav-bar.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-3e729bf7").then(next)
-    },
-  },
-  {
-    name: "v-ae440092",
-    path: "/components/my-refresh.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ae440092").then(next)
     },
   },
   {
@@ -53,22 +53,6 @@ export const routes = [
     },
   },
   {
-    name: "v-67c8ac97",
-    path: "/components/my-swiper-nav.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
-    },
-  },
-  {
-    name: "v-219c427a",
-    path: "/components/my-swiper.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
-    },
-  },
-  {
     name: "v-7840c092",
     path: "/components/my-tab-bar.html",
     component: GlobalLayout,
@@ -77,11 +61,35 @@ export const routes = [
     },
   },
   {
+    name: "v-67c8ac97",
+    path: "/components/my-swiper-nav.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
+    },
+  },
+  {
+    name: "v-ae440092",
+    path: "/components/my-refresh.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ae440092").then(next)
+    },
+  },
+  {
     name: "v-eb03cc1e",
     path: "/components/my-upload.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-eb03cc1e").then(next)
+    },
+  },
+  {
+    name: "v-219c427a",
+    path: "/components/my-swiper.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
     },
   },
   {

@@ -24,6 +24,46 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "DropDown 下拉选择菜单",
+      "frontmatter": {},
+      "regularPath": "/components/my-drop-down.html",
+      "relativePath": "components/my-drop-down.md",
+      "key": "v-21064597",
+      "path": "/components/my-drop-down.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "DropDown 下拉选择菜单",
+          "slug": "dropdown-下拉选择菜单"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
       "title": "NavBar 导航条",
       "frontmatter": {},
       "regularPath": "/components/my-nav-bar.html",
@@ -69,46 +109,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Refresh 拉下刷新",
-      "frontmatter": {},
-      "regularPath": "/components/my-refresh.html",
-      "relativePath": "components/my-refresh.md",
-      "key": "v-ae440092",
-      "path": "/components/my-refresh.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Refresh 拉下刷新",
-          "slug": "refresh-拉下刷新"
-        },
-        {
-          "level": 3,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "引入",
-          "slug": "引入"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 3,
-          "title": "属性说明props",
-          "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "事件说明 event",
-          "slug": "事件说明-event"
-        }
-      ]
-    },
-    {
       "title": "SideBar 侧边栏",
       "frontmatter": {},
       "regularPath": "/components/my-side-bar.html",
@@ -120,86 +120,6 @@ export const siteData = {
           "level": 2,
           "title": "SideBar 侧边栏",
           "slug": "sidebar-侧边栏"
-        },
-        {
-          "level": 3,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "引入",
-          "slug": "引入"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 3,
-          "title": "属性说明props",
-          "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "事件说明 event",
-          "slug": "事件说明-event"
-        }
-      ]
-    },
-    {
-      "title": "NavBar 滚动导航条",
-      "frontmatter": {},
-      "regularPath": "/components/my-swiper-nav.html",
-      "relativePath": "components/my-swiper-nav.md",
-      "key": "v-67c8ac97",
-      "path": "/components/my-swiper-nav.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "NavBar 滚动导航条",
-          "slug": "navbar-滚动导航条"
-        },
-        {
-          "level": 3,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "引入",
-          "slug": "引入"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 3,
-          "title": "属性说明props",
-          "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "事件说明 event",
-          "slug": "事件说明-event"
-        }
-      ]
-    },
-    {
-      "title": "Swiper 自适应轮播",
-      "frontmatter": {},
-      "regularPath": "/components/my-swiper.html",
-      "relativePath": "components/my-swiper.md",
-      "key": "v-219c427a",
-      "path": "/components/my-swiper.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Swiper 自适应轮播",
-          "slug": "swiper-自适应轮播"
         },
         {
           "level": 3,
@@ -274,6 +194,86 @@ export const siteData = {
       ]
     },
     {
+      "title": "NavBar 滚动导航条",
+      "frontmatter": {},
+      "regularPath": "/components/my-swiper-nav.html",
+      "relativePath": "components/my-swiper-nav.md",
+      "key": "v-67c8ac97",
+      "path": "/components/my-swiper-nav.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "NavBar 滚动导航条",
+          "slug": "navbar-滚动导航条"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
+      "title": "Refresh 拉下刷新",
+      "frontmatter": {},
+      "regularPath": "/components/my-refresh.html",
+      "relativePath": "components/my-refresh.md",
+      "key": "v-ae440092",
+      "path": "/components/my-refresh.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Refresh 拉下刷新",
+          "slug": "refresh-拉下刷新"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
       "title": "Upload 上传",
       "frontmatter": {},
       "regularPath": "/components/my-upload.html",
@@ -285,6 +285,46 @@ export const siteData = {
           "level": 2,
           "title": "Upload 上传",
           "slug": "upload-上传"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
+      "title": "Swiper 自适应轮播",
+      "frontmatter": {},
+      "regularPath": "/components/my-swiper.html",
+      "relativePath": "components/my-swiper.md",
+      "key": "v-219c427a",
+      "path": "/components/my-swiper.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Swiper 自适应轮播",
+          "slug": "swiper-自适应轮播"
         },
         {
           "level": 3,
@@ -370,6 +410,10 @@ export const siteData = {
           [
             "/components/my-tab-bar",
             "TabBar 底部导航栏"
+          ],
+          [
+            "/components/my-drop-down",
+            "DropDown 下拉菜单栏"
           ]
         ]
       }
