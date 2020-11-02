@@ -23,7 +23,8 @@ module.exports = {
                   ['/components/my-side-bar','SideBar 侧边栏'],
                   ['/components/my-nav-bar','NavBar 导航栏'],
                   ['/components/my-tab-bar','TabBar 底部导航栏'],
-                  ['/components/my-drop-down','DropDown 下拉菜单栏']
+                  ['/components/my-drop-down','DropDown 下拉菜单栏'],
+                  ['/components/my-time-picker','TimePick 时间选择器']
                 ]
             },
         ],

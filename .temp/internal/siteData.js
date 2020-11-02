@@ -8,20 +8,20 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Hello world",
-      "frontmatter": {},
-      "regularPath": "/api.html",
-      "relativePath": "api.md",
-      "key": "v-3384772a",
-      "path": "/api.html"
-    },
-    {
       "title": "快速上手",
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-7b0bf451",
       "path": "/"
+    },
+    {
+      "title": "Hello world",
+      "frontmatter": {},
+      "regularPath": "/api.html",
+      "relativePath": "api.md",
+      "key": "v-3384772a",
+      "path": "/api.html"
     },
     {
       "title": "DropDown 下拉选择菜单",
@@ -109,6 +109,53 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/components/my-place-picker.html",
+      "relativePath": "components/my-place-picker.md",
+      "key": "v-60c2a10b",
+      "path": "/components/my-place-picker.html"
+    },
+    {
+      "title": "Refresh 拉下刷新",
+      "frontmatter": {},
+      "regularPath": "/components/my-refresh.html",
+      "relativePath": "components/my-refresh.md",
+      "key": "v-ae440092",
+      "path": "/components/my-refresh.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Refresh 拉下刷新",
+          "slug": "refresh-拉下刷新"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
       "title": "SideBar 侧边栏",
       "frontmatter": {},
       "regularPath": "/components/my-side-bar.html",
@@ -120,6 +167,46 @@ export const siteData = {
           "level": 2,
           "title": "SideBar 侧边栏",
           "slug": "sidebar-侧边栏"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
+      "title": "NavBar 滚动导航条",
+      "frontmatter": {},
+      "regularPath": "/components/my-swiper-nav.html",
+      "relativePath": "components/my-swiper-nav.md",
+      "key": "v-67c8ac97",
+      "path": "/components/my-swiper-nav.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "NavBar 滚动导航条",
+          "slug": "navbar-滚动导航条"
         },
         {
           "level": 3,
@@ -194,17 +281,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "NavBar 滚动导航条",
+      "title": "Swiper 自适应轮播",
       "frontmatter": {},
-      "regularPath": "/components/my-swiper-nav.html",
-      "relativePath": "components/my-swiper-nav.md",
-      "key": "v-67c8ac97",
-      "path": "/components/my-swiper-nav.html",
+      "regularPath": "/components/my-swiper.html",
+      "relativePath": "components/my-swiper.md",
+      "key": "v-219c427a",
+      "path": "/components/my-swiper.html",
       "headers": [
         {
           "level": 2,
-          "title": "NavBar 滚动导航条",
-          "slug": "navbar-滚动导航条"
+          "title": "Swiper 自适应轮播",
+          "slug": "swiper-自适应轮播"
         },
         {
           "level": 3,
@@ -234,17 +321,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "Refresh 拉下刷新",
+      "title": "TimePicker 时间选择器",
       "frontmatter": {},
-      "regularPath": "/components/my-refresh.html",
-      "relativePath": "components/my-refresh.md",
-      "key": "v-ae440092",
-      "path": "/components/my-refresh.html",
+      "regularPath": "/components/my-time-picker.html",
+      "relativePath": "components/my-time-picker.md",
+      "key": "v-1ccf4057",
+      "path": "/components/my-time-picker.html",
       "headers": [
         {
           "level": 2,
-          "title": "Refresh 拉下刷新",
-          "slug": "refresh-拉下刷新"
+          "title": "TimePicker 时间选择器",
+          "slug": "timepicker-时间选择器"
         },
         {
           "level": 3,
@@ -285,46 +372,6 @@ export const siteData = {
           "level": 2,
           "title": "Upload 上传",
           "slug": "upload-上传"
-        },
-        {
-          "level": 3,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "引入",
-          "slug": "引入"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 3,
-          "title": "属性说明props",
-          "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "事件说明 event",
-          "slug": "事件说明-event"
-        }
-      ]
-    },
-    {
-      "title": "Swiper 自适应轮播",
-      "frontmatter": {},
-      "regularPath": "/components/my-swiper.html",
-      "relativePath": "components/my-swiper.md",
-      "key": "v-219c427a",
-      "path": "/components/my-swiper.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Swiper 自适应轮播",
-          "slug": "swiper-自适应轮播"
         },
         {
           "level": 3,
@@ -414,6 +461,10 @@ export const siteData = {
           [
             "/components/my-drop-down",
             "DropDown 下拉菜单栏"
+          ],
+          [
+            "/components/my-time-picker",
+            "TimePick 时间选择器"
           ]
         ]
       }

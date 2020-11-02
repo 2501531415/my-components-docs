@@ -9,14 +9,6 @@ import GlobalLayout from "F:\\ming\\vuepress-starter\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-3384772a",
-    path: "/api.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3384772a").then(next)
-    },
-  },
-  {
     name: "v-7b0bf451",
     path: "/",
     component: GlobalLayout,
@@ -27,6 +19,14 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-3384772a",
+    path: "/api.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3384772a").then(next)
+    },
   },
   {
     name: "v-21064597",
@@ -45,27 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-13139979",
-    path: "/components/my-side-bar.html",
+    name: "v-60c2a10b",
+    path: "/components/my-place-picker.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-13139979").then(next)
-    },
-  },
-  {
-    name: "v-7840c092",
-    path: "/components/my-tab-bar.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7840c092").then(next)
-    },
-  },
-  {
-    name: "v-67c8ac97",
-    path: "/components/my-swiper-nav.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-60c2a10b").then(next)
     },
   },
   {
@@ -77,11 +61,27 @@ export const routes = [
     },
   },
   {
-    name: "v-eb03cc1e",
-    path: "/components/my-upload.html",
+    name: "v-13139979",
+    path: "/components/my-side-bar.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-eb03cc1e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-13139979").then(next)
+    },
+  },
+  {
+    name: "v-67c8ac97",
+    path: "/components/my-swiper-nav.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
+    },
+  },
+  {
+    name: "v-7840c092",
+    path: "/components/my-tab-bar.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7840c092").then(next)
     },
   },
   {
@@ -90,6 +90,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-219c427a").then(next)
+    },
+  },
+  {
+    name: "v-1ccf4057",
+    path: "/components/my-time-picker.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1ccf4057").then(next)
+    },
+  },
+  {
+    name: "v-eb03cc1e",
+    path: "/components/my-upload.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-eb03cc1e").then(next)
     },
   },
   {
