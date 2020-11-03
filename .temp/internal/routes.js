@@ -29,6 +29,14 @@ export const routes = [
     },
   },
   {
+    name: "v-9b012e56",
+    path: "/components/my-back-top.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9b012e56").then(next)
+    },
+  },
+  {
     name: "v-21064597",
     path: "/components/my-drop-down.html",
     component: GlobalLayout,
@@ -53,14 +61,6 @@ export const routes = [
     },
   },
   {
-    name: "v-ae440092",
-    path: "/components/my-refresh.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ae440092").then(next)
-    },
-  },
-  {
     name: "v-13139979",
     path: "/components/my-side-bar.html",
     component: GlobalLayout,
@@ -69,19 +69,19 @@ export const routes = [
     },
   },
   {
+    name: "v-ae440092",
+    path: "/components/my-refresh.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ae440092").then(next)
+    },
+  },
+  {
     name: "v-67c8ac97",
     path: "/components/my-swiper-nav.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-67c8ac97").then(next)
-    },
-  },
-  {
-    name: "v-7840c092",
-    path: "/components/my-tab-bar.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7840c092").then(next)
     },
   },
   {
@@ -98,6 +98,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1ccf4057").then(next)
+    },
+  },
+  {
+    name: "v-7840c092",
+    path: "/components/my-tab-bar.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7840c092").then(next)
     },
   },
   {

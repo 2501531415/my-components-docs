@@ -24,6 +24,46 @@ export const siteData = {
       "path": "/api.html"
     },
     {
+      "title": "BackTop 回到顶部",
+      "frontmatter": {},
+      "regularPath": "/components/my-back-top.html",
+      "relativePath": "components/my-back-top.md",
+      "key": "v-9b012e56",
+      "path": "/components/my-back-top.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "BackTop 回到顶部",
+          "slug": "backtop-回到顶部"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
       "title": "DropDown 下拉选择菜单",
       "frontmatter": {},
       "regularPath": "/components/my-drop-down.html",
@@ -116,17 +156,17 @@ export const siteData = {
       "path": "/components/my-place-picker.html"
     },
     {
-      "title": "Refresh 拉下刷新",
+      "title": "SideBar 侧边栏",
       "frontmatter": {},
-      "regularPath": "/components/my-refresh.html",
-      "relativePath": "components/my-refresh.md",
-      "key": "v-ae440092",
-      "path": "/components/my-refresh.html",
+      "regularPath": "/components/my-side-bar.html",
+      "relativePath": "components/my-side-bar.md",
+      "key": "v-13139979",
+      "path": "/components/my-side-bar.html",
       "headers": [
         {
           "level": 2,
-          "title": "Refresh 拉下刷新",
-          "slug": "refresh-拉下刷新"
+          "title": "SideBar 侧边栏",
+          "slug": "sidebar-侧边栏"
         },
         {
           "level": 3,
@@ -156,17 +196,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "SideBar 侧边栏",
+      "title": "Refresh 拉下刷新",
       "frontmatter": {},
-      "regularPath": "/components/my-side-bar.html",
-      "relativePath": "components/my-side-bar.md",
-      "key": "v-13139979",
-      "path": "/components/my-side-bar.html",
+      "regularPath": "/components/my-refresh.html",
+      "relativePath": "components/my-refresh.md",
+      "key": "v-ae440092",
+      "path": "/components/my-refresh.html",
       "headers": [
         {
           "level": 2,
-          "title": "SideBar 侧边栏",
-          "slug": "sidebar-侧边栏"
+          "title": "Refresh 拉下刷新",
+          "slug": "refresh-拉下刷新"
         },
         {
           "level": 3,
@@ -227,51 +267,6 @@ export const siteData = {
           "level": 3,
           "title": "属性说明props",
           "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "事件说明 event",
-          "slug": "事件说明-event"
-        }
-      ]
-    },
-    {
-      "title": "TabBar 底部导航条",
-      "frontmatter": {},
-      "regularPath": "/components/my-tab-bar.html",
-      "relativePath": "components/my-tab-bar.md",
-      "key": "v-7840c092",
-      "path": "/components/my-tab-bar.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "TabBar 底部导航条",
-          "slug": "tabbar-底部导航条"
-        },
-        {
-          "level": 3,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "引入",
-          "slug": "引入"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 3,
-          "title": "属性说明props",
-          "slug": "属性说明props"
-        },
-        {
-          "level": 3,
-          "title": "list",
-          "slug": "list"
         },
         {
           "level": 3,
@@ -352,6 +347,51 @@ export const siteData = {
           "level": 3,
           "title": "属性说明props",
           "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "事件说明 event",
+          "slug": "事件说明-event"
+        }
+      ]
+    },
+    {
+      "title": "TabBar 底部导航条",
+      "frontmatter": {},
+      "regularPath": "/components/my-tab-bar.html",
+      "relativePath": "components/my-tab-bar.md",
+      "key": "v-7840c092",
+      "path": "/components/my-tab-bar.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "TabBar 底部导航条",
+          "slug": "tabbar-底部导航条"
+        },
+        {
+          "level": 3,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "引入",
+          "slug": "引入"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
+        },
+        {
+          "level": 3,
+          "title": "属性说明props",
+          "slug": "属性说明props"
+        },
+        {
+          "level": 3,
+          "title": "list",
+          "slug": "list"
         },
         {
           "level": 3,
@@ -465,6 +505,10 @@ export const siteData = {
           [
             "/components/my-time-picker",
             "TimePick 时间选择器"
+          ],
+          [
+            "/components/my-back-top",
+            "BackTop 回到顶部"
           ]
         ]
       }
